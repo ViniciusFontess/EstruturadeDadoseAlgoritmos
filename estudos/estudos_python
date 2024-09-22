@@ -1,0 +1,97 @@
+
+					   PYTHON (estudos)
+
+				1- Mutable VS immutable types
+
+
+		MUTAVEIS:					IMUTAVEIS
+		
+		list						int									
+		dict						float
+		set						bool 
+								str
+								tuple
+								complex
+								frozenset
+								
+	
+				2- Tuple VS List	
+				
+				
+		R: arthur_galego2.py
+		
+		
+				3- What is dictionary
+				
+				
+				     {'A' : 3}
+				     
+		R: arthur_galego3.py
+			     
+			     
+				4- Diff between = and is
+		
+				
+		R: arthur_galego4.py
+		
+		
+				5- List comprehension
+				
+		
+		R: arthur_galego5.py
+		
+		
+				6- What are the __ methods
+				
+		
+		R: arthur_galego6.py
+		
+		
+				7- What are decorators
+				
+				
+		R: arthur_galego7.py
+
+				
+				8- shallow VS deep copy
+				
+					
+		R: arthur_galego8.py
+		
+		
+				9- Lambda functions (anonymous function)
+				
+				
+		R: arthur_galego9.py
+		
+						
+				9- asyncio VS threading
+				
+				
+		asyncio:					threading
+		
+		- coroutines					- CPU - bound tasks
+		- I/O										
+					
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
