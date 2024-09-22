@@ -20,7 +20,7 @@ pyautogui.moveTo(x=899, y=1027, duration = 1)
 pyautogui.click(x=899, y=1027) #clicar na barra de escrita
 
 time.sleep(2)
-pyautogui.write('EU TE AMO MUITO MEU AMOR, ESTOU BUSCANDO TE FAZER FELIZ E SERMOS INDEPENDENTES')
+pyautogui.write('EU TE AMO MUITO MEU AMOR, ESTOU BUSCANDO TE FAZER FELIZ E SERMOS INDEPENDENTES, ME DESCULPA POR ONTEM SOU UM IDIOTA')
 
-"""time.sleep(2)
-pyautogui.press('enter')"""
+time.sleep(2)
+pyautogui.press('enter')
