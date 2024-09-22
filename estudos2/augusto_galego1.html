@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+
+    <p>Count: <span id="count">0</span></p>
+    <button id="incrementBtn">+1</button>
+
+    <script>
+        const countElement = document.getElementById("count");
+        const incrementBtn = document.getElementById("incrementBtn");
+        let count = 0;
+
+        incrementBtn.addEventListener('click', () => {
+            count++;
+            countElement.textContent = count;
+
+        });
+    </script>
+
+
+
+
+</body>
+</html>
