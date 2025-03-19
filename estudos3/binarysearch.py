@@ -1,20 +1,16 @@
-def binary_search (nums, n):
-    l = 0
-    r = len(nums)
-    steps = 0
-
+def binary_search (nums, n, l=0, r= None):
+    if r is None:
+        r = len(nums)-1
+        
     while l < r:
         mid = int((l+r)/2)
-        steps =+ 1
 
         if nums[mid] == n:
-            print("step: " , steps)
             return mid
         elif nums[mid] < n:
             l = mid+1
         else:
             r = mid
-
     return -1        
 
 def exponential_search(arr,target):
@@ -25,17 +21,18 @@ def exponential_search(arr,target):
 
     while i < n and arr[i] > target:
         i *= 2
+
     if arr[i] == target:
         return i
     
-    binary_search(arr[i//2:min(i,n-1)], target)
+    return binary_search(arr, target, i//2, min(i,n))
 
 
     
-
-a = [1,2,3,4,5]
-b = [1,2,3,4,5,6,7,8,9,10]
-c = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+target = 32
 d = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40]
+result = exponential_search(d,target)
+print(f"Element found at index {result}")
 
-binary_search(b,4)
+
+
